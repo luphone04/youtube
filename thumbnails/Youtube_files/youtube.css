@@ -1,0 +1,25 @@
+.thumbnail{
+  width: 257px;
+  /* height: 300px;
+  object-fit: contain;
+  object-position: right;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000000; */
+  display: block;
+
+}
+/* .search-bar{
+  font-size: 20px;
+  margin-left: 12px;
+} */
+
+.video-author{
+  
+}
+
+.video-stats{
+  
+}
+
+
