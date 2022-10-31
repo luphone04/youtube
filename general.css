@@ -8,4 +8,7 @@ body{
   margin: 0;
   padding-top: 80px;
   padding-left: 100px;
+  padding-right: 24px;
+  height: 4000px;
+  background-color: rgb(244, 242, 242);
 }

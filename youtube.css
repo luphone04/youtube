@@ -15,8 +15,13 @@ p{
   border-style: solid;
   border-color: #000000; */
   /* display: block; */
+
 }
 
+.video-info a{
+  text-decoration: none;
+  color: black;
+}
 
 
 
@@ -25,7 +30,8 @@ p{
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
-  margin-bottom: 11px;
+  margin-bottom: 10px;
+
 }
 .video-preview{
 
@@ -58,12 +64,13 @@ p{
 }
 
 .profile-picture{
-  width: 40px;
+  width: 36px;
   border-radius: 50px;
 }
 
 .thumbnail-row{
-  margin-bottom: 12px;
+  margin-bottom: 8px;
+  position: relative;
 }
 
 
@@ -84,3 +91,19 @@ p{
  
 }
 
+
+.video-time{
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  font-size: 12px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 2px;
+}
