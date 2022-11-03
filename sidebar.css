@@ -41,6 +41,41 @@
   }
 }
 
-@media (min-width: 1200.0px){
+@media (min-width: 1200.1px) {
+  .sidebar-link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 24px;
+  }
+
+
+  .sidebar-link img{
+    height: 25px;
+    margin-right: 24px;
+    cursor: pointer;
+  }
+
+  .sidebar-link div{
   
+    font-size: 14px;
+  
+  }
+
+  .sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    width: 240px;
+    /* border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(244, 242, 242); */
+    z-index: 200;
+    padding-top: 13px;
+  }
+  .sidebar-link:hover {
+    background-color: rgb(235, 235, 235);
+  }
 }
